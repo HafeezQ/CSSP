@@ -1,0 +1,94 @@
+<html>  
+<head lang="en">  
+    <meta charset="UTF-8">  
+    <link type="text/css" rel="stylesheet" href="bootstrap-3.2.0-dist\css\bootstrap.css">  
+	<link type="text/css" rel="stylesheet" href="C:\CSS practice\CSS-practice\lesson.css">
+    <title>Registration</title>  
+</head>  
+<style>  
+    .login-panel {  
+        margin-top: 50px; 
+       margin-left : 65px;		
+	   margin-right : 65px;
+	  }
+
+header{ position: fixed ; top : 5px ; left:80px; right:20px; width : 80%; color:#CCC; background: #333;padding : 8px }
+
+footer{ position: fixed ; bottom : 5px ; left:80px; right:20px; width : 80%; color:#CCC; background: #333;
+padding : 8px ; clear:both}	 
+
+.container
+{
+ margin-left : 10px;
+ margin-top : 0px; 
+ margin-right : 80px;
+	
+} 
+  
+</style>  
+<body>  
+
+<header>Header</header>
+  
+<div class="container"><!-- container class is used to centered  the body of the browser with some decent width-->  
+    <div class="row"><!-- row class is used for grid system in Bootstrap-->  
+        <div class="col-md-4 col-md-offset-4"><!--col-md-4 is used to create the no of colums in the grid also use for medimum and large devices-->  
+            <div class="login-panel panel panel-success">  
+                <div class="panel-heading">  
+                    <h3 class="panel-title">Registration</h3>  
+                </div>  
+                <div class="panel-body">  
+                    <form role="form" method="post" action="registration.php">  
+                        <fieldset>  
+                            <div class="form-group"> 
+                         <label for="description">Company Name</label>							
+                                <input class="form-control" name="name" type="text" autofocus>  
+                            </div>  
+							
+							<label for="Photo">Company Logo </label>
+ <div class="fileupload fileupload-new" data-provides="fileupload">
+  <div class="fileupload-preview thumbnail" style="width: 200px; height: 150px;"></div>
+  <div>
+    <span class="btn btn-file"><span class="fileupload-new">Select image</span><span class="fileupload-exists">Change</span><input type="file" name="company_logo" /></span>
+    <a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a>
+  </div>
+  
+                             <div class="form-group"> 
+                         <label for="description">User Name</label>							
+                                <input class="form-control" name="name" type="text" autofocus>  
+                            </div>  
+							
+  
+                            <div class="form-group">  
+                          <label for="description">Email</label>                         
+						 <input class="form-control"  name="email" type="email" autofocus>  
+                            </div>  
+                            <div class="form-group">  
+							<label for="description">Password</label>
+                                <input class="form-control" name="pass" type="password" value="">  
+                            </div>  
+							
+							<div class="form-group">
+ 
+  
+</div>
+</div>
+
+  
+  
+                            <input class="btn btn-lg btn-success btn-block" type="submit" value="register" name="register" >  
+  
+                        </fieldset>  
+                    </form>  
+                    <center><b>Already registered ?</b> <br></b><a href="login.php">Login here</a></center><!--for centered text-->  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+</div>  
+
+<footer>Footer</footer>
+  
+</body>  
+  
+</html>  
