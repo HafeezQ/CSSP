@@ -5,12 +5,17 @@
 </head>
 
 <style>
+
+/*----LAYOUT---*/
+
 body{
 background-color : #9c9f84;
 margin : 0px;
 font-family : Verdana, Georgia, serif;
 font-size : 14px;
 }
+
+/*----HEADER-----*/
 
 #header
 {
@@ -20,13 +25,52 @@ height : 50px;
 border-radius : 5px;
 }
 
-#navbar
+/*----HEADER-----*/
+
+
+
+#navbar ul
 {
-background-color : #5c755e;
+background-color : #000;
+padding : 5px;
+list-style-type:none;/*gets rid of bullet*/
+text-align : center;
 margin : 10px;
-height : 35px;
 border-radius : 5px;
 }
+
+
+
+#navbar ul li
+{
+display : inline;
+
+}
+
+#navbar ul li a{
+
+text-decoration : none;
+font-family : Arial;
+padding : .2em 1em;
+color : #fff;
+background : #000; 
+
+
+}
+
+#navbar ul li a:hover{
+
+color : #000;
+background-color : #fff;
+
+
+}
+
+
+
+
+
+
 
 .main
 {
@@ -38,6 +82,8 @@ margin-bottom : 10px;
 border-radius : 5px;
 padding : 20px;
 font-size : 110%
+
+/*---HEADINGS--*/
 
 }
 
@@ -52,6 +98,22 @@ font-size : 120%;
 color: blue;
 
 }
+
+h3{
+
+font-size : 250%;
+text-align : center;
+color : #e5e4d7;
+font-family : "Century-Gothic";
+margin : 0px;
+
+}
+
+/*------HEADINGS----*/
+
+
+/*----SIDEBAR-----*/
+
 .sideright
 {
 background-color: #E5E4D7;
@@ -71,6 +133,9 @@ clear : right;
 
 }
 
+
+
+
 .imagesidebar
 {
 width:300px;
@@ -87,6 +152,13 @@ clear : right;
 
 }
 
+
+
+/*----SIDEBAR-----*/
+
+
+/*----FOOTER-----*/
+
 #footer
 {
 
@@ -95,8 +167,60 @@ margin : 10px;
 height : 50px;
 border-radius : 5px;
 
+clear : both;
+
+color: #efe5do;
+text-align : center;
+padding : 15px;
+font-size : 90%;
+
 
 }
+
+
+
+#footer ul
+{
+
+padding : 5px;
+list-style-type:none;/*gets rid of bullet*/
+text-align : center;
+margin : 10px;
+border-radius : 5px;
+}
+
+
+
+#footer ul li
+{
+display : inline;
+
+}
+
+#footer ul li a{
+
+text-decoration : none;
+font-family : Arial;
+padding : .2em 1em;
+color : #efe5d0;
+background : #5c755e; 
+
+
+}
+
+#footer ul li a:hover{
+
+color : #000;
+background-color : #fff;
+
+
+}
+
+
+
+
+
+/*----FOOTER-----*/
 
 
 </style>
@@ -106,9 +230,18 @@ border-radius : 5px;
 
 <div id="header">
 
+<h3>Indian History</h3>
+
 </div>
 
 <div id="navbar">
+
+ <ul>
+ <li><a href="">Ancient</a></li>
+ <li><a href="">Medieval</a></li>
+ <li><a href="">Modern</a></li>
+ 
+ </ul>
 
 </div>
 
@@ -171,12 +304,17 @@ The battle took place at Palashi (Anglicized version: Plassey) on the banks of t
 
 The battle was preceded by the attack on British-controlled Calcutta by Nawab Siraj-ud-daulah and the Black Hole incident. The British sent reinforcements under Colonel Robert Clive and Admiral Charles Watson from Madras to Bengal and recaptured Calcutta. Clive then seized the initiative to capture the French fort of Chandernagar.[4] Tensions and suspicions between Siraj-ud-daulah and the British culminated in the Battle of Plassey. The battle was waged during the Seven Years' War (1756–63), and, in a mirror of their European rivalry, the French East India Company (La Compagnie des Indes Orientales)[2] sent a small contingent to fight against the British. Siraj-ud-Daulah had a numerically superior force and made his stand at Plassey.
 </p>
-
-<div id="footer">
-
 </div>
 
+<div id="footer">
+<ul>
 
+<li><a href="">About</a></li>
+<li><a href="">Contact</a></li>
+<li><a href="">Help</a></li>
+
+&copy; 2015 India History.  All Rights Reserved.
+</div>
 </body>
 
 </html>
