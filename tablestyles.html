@@ -1,0 +1,96 @@
+<html>
+
+<head>
+<title>
+TableStyles
+</title>
+</head>
+<style>
+
+table {
+border-collapse: collapse;
+width: 50em;
+border: 1px solid #666;
+}
+th, td {
+padding: 0.1em 1em;
+}
+
+caption {
+font-size: 1.2em;
+font-weight: bold;
+margin: 1em 0;
+}
+
+col {
+border-right: 1px solid #ccc;
+}
+col#albumCol {
+border: none;
+}
+
+thead {
+background: #ccc url(images/image1.jpeg) repeat-x left center;
+border-top: 1px solid #a5a5a5;
+border-bottom: 1px solid #a5a5a5;
+}
+th {
+font-weight: normal;
+text-align: left;
+}
+STYLING FORMS AND DATA TABLES
+117
+
+</style>
+
+
+<body>
+
+<table cellspacing="0" id="playlistTable" summary="Top 15 songs
+played.
+Top artists include Cold Play, Yeah Yeah Yeahs, Snow Patrol, Deeper ➥
+Water, Kings of Leon, Embrace, Oasis, Franz Ferdinand, Jet, The Bees,➥
+Blue States, Kaiser Chiefs and Athlete.">
+<caption>Top 15 Playlist</caption>
+<colgroup>
+<col id="PlaylistCol" />
+<col id="trackCol" />
+<col id="artistCol" />
+<col id="albumCol" />
+</colgroup>
+<thead>
+<tr>
+<th id="playlistPosHead" scope="col">Playlist Position</th>
+<th scope="col">Track Name</th>
+<th scope="col">Artist</th>
+<th scope="col">Album</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Hide You</td>
+<td>Kosheen</td>
+<td>Never going get it</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Well off</td>
+<td>Thievery Corporation</td>
+<td>Sounds From the Thievery Hi-Fi</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Fix You</td>
+<td>Cold Play</td>
+<td>X&amp;Y</td>
+</tr>
+…
+</tbody>
+</table>
+
+
+</body>
+
+
+</html>
